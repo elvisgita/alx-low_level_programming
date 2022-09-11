@@ -1,10 +1,11 @@
 #include <stdio.h>
-
-/**
- *
- * Return: Always 0 (Success)
- */
-int main(void)
+int main ()
 {
-	return (0);
-}
+	/* initialization string */
+  char Mystr[] = "Programming is like building a multilingual puzzle /n";
+
+  puts(Mystr);
+  /* send string to std out */ 	
+
+  return 0;
+}  
