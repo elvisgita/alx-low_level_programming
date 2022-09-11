@@ -1,11 +1,16 @@
 #include <stdio.h>
-int main ()
+/**
+* main - Entry point
+* char Mystr - initialize string
+* puts Mystr - print sting Mystr
+* Return: Always 0 (Success)
+*/
+int main (void)
 {
-	/* initialization string */
-  char Mystr[] = "Programming is like building a multilingual puzzle /n";
 
-  puts(Mystr);
-  /* send string to std out */ 	
+  char Mystr[] = "Programming is like building a multilingual puzzle";
+
+  puts(Mystr); 	
 
   return 0;
 }  
